@@ -1,1 +1,19 @@
 # NTUCoursework_LectureNotesTutorialAndMindmaps
+# Uploaded courses:
+Year 1 Sem 1
+BU8101  
+CZ1003 
+CZ1004 
+CZ1005 
+HW0188 
+MH1200 
+MH1812
+
+Year 2 Sem 2
+CZ1006
+CZ1007
+CZ1011
+CZ1012
+HE9091
+MH1201
+ML0001
