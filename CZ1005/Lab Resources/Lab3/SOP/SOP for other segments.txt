@@ -1,0 +1,6 @@
+b = A'B' + B'D' + A'C'D' + A'CD + AC'D
+c = A'C' + A'D + C'D + A'B + AB'
+d = AC' + A'B'D' + B'CD + BC'D + BCD'
+e = B'D' + CD' + AC + AB
+f = B'D' + CD' + AC + AB
+g = B'C + CD' + AB' + AD + A'BC'

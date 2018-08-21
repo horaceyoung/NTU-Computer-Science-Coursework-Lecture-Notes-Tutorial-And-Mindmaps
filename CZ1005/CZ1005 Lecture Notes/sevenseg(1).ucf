@@ -1,0 +1,40 @@
+# UCF (user constraints file)
+
+# mappings provided only for x[3:0] and seg[6]
+# students are to fill in the remaining mappings
+
+#map 4-bit input x[3:0] to SW3, SW2, SW1, SW0
+
+NET "x[3]" LOC = P15;
+NET "x[2]" LOC = C14;
+NET "x[1]" LOC = D14;
+NET "x[0]" LOC = A10;
+
+
+# map 7-bit output seg[6:0] to 7-segment display module
+# seg[6] is segment g; seg[0] is segment a
+
+NET "seg[6]" LOC = V4;
+NET "seg[5]" LOC 
+NET "seg[4]" LOC 
+NET "seg[3]" LOC 
+NET "seg[2]" LOC 
+NET "seg[1]" LOC 
+NET "seg[0]" LOC 
+
+
+#specify low voltage CMOS interface for inputs
+NET "x[3]" IOSTANDARD = LVCMOS25;
+NET "x[2]" IOSTANDARD = LVCMOS25;
+NET "x[1]" IOSTANDARD = LVCMOS25;
+NET "x[0]" IOSTANDARD = LVCMOS25;
+
+#specify low voltage CMOS interface for outputs
+NET "seg[6]" IOSTANDARD = LVCMOS25;
+NET "seg[5]" IOSTANDARD 
+NET "seg[4]" IOSTANDARD 
+NET "seg[3]" IOSTANDARD 
+NET "seg[2]" IOSTANDARD 
+NET "seg[1]" IOSTANDARD 
+NET "seg[0]" IOSTANDARD 
+
